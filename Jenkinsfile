@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage ('Checkout'){
             steps {
-                git credentialsId:'radjaafa', url: "${GIT_REPO}", branch:'master'
+                git credentialsId:'radjaafa', url: "${GIT_REPO}"
             }
         }
         stage ('Clean'){
