@@ -35,3 +35,6 @@
     </EmbeddedResource>
   </ItemGroup>
 </Project>
+<IsPackable>
+  true
+</IsPackable>
