@@ -1,22 +1,23 @@
 pipeline {
+    
+    environment {
+        GIT_REPO = "https://github.com/radjaafa/dotnet-core-example"
+    }
     agent {
         label "WindowSlave"
-    }
-    environment {
-        dotnet = 'C:\Program Files\dotnet'
     }
     stages {
         stage ('Checkout'){
             steps {
-                git credentialsId:'radjaafa', url: 'https://github.com/radjaafa/dotnet-core-example', branch:'master'
+                git credentialsId:'radjaafa', url: "$(GIT_REPO)", branch:'master'
             }
         }
-    /*    stage ('Clean'){
+        stage ('Clean'){
             steps{
                 bat 'dotnet clean'
             }
             
-        } */
+        } 
         stage('Build'){
             steps{
                 bat 'dotnet build --configuration Release'
