@@ -39,10 +39,10 @@ pipeline {
                 dotnet 'test tests/Conduit.IntegrationTests/Conduit.IntegrationTests.csproj /p:CollectCoverage=true'
             }
         }
-        stage('codeCover'){
+       /* stage('codeCover'){
             steps{
                 powershell.exe -NoProfile -ExecutionPolicy Bypass ./TestsAndCoverage.ps1
             }
-        }
+        }*/
     }
 }
