@@ -32,7 +32,8 @@
     <EmbeddedResource Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs</LastGenOutput>
+      <IsPackable>true</IsPackable>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
-<IsPackable>true</IsPackable>
+
