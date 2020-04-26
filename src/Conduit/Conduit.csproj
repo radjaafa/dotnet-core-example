@@ -25,6 +25,7 @@
     <Compile Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
+      <IsPackable>true</IsPackable>
       <DependentUpon>Infrastructure.Errors.ErrorHandlingMiddleware.resx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -32,7 +33,6 @@
     <EmbeddedResource Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs</LastGenOutput>
-      <IsPackable>true</IsPackable>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
