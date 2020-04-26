@@ -25,7 +25,7 @@
     <Compile Update="Resources\Infrastructure.Errors.ErrorHandlingMiddleware.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <IsPackable>true</IsPackable>
+      <IsPackable>false</IsPackable>
       <DependentUpon>Infrastructure.Errors.ErrorHandlingMiddleware.resx</DependentUpon>
     </Compile>
   </ItemGroup>
